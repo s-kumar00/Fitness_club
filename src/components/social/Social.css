@@ -1,0 +1,43 @@
+.social{
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.5rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.social a{
+    background-color: #6c6767;
+    color: var(--color-primary);
+    font-size: 125%;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px;
+    border-radius: 7px;
+    width: 8rem;
+    margin-left: -100px;
+    transition: all 0.8s;
+}
+.social a:hover{
+    width: 14rem;
+    color: white;
+}
+
+@media screen and (max-width:1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+/* ======================media for small devices================== */
+@media screen and (max-width:600px){
+   header{
+    height: 100vh;
+   }
+}
